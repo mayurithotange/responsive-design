@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+
+    <style>
+
+        body{
+            background-color: white;
+
+        }
+
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: aliceblue;
+    border-radius: 20px;
+    border:0px  solid grey;
+    width:450px;
+    height:200px;
+    margin:10px;
+    box-shadow: 0px 0px 50px 1px grey;
+    
+    
+}
+
+.quick-card{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.ice-image{
+  height: 40px;
+  box-shadow: 0px 0px  35px 0px grey;
+  border-radius: 10px;
+  padding:5px;
+  margin: 10px;
+
+  
+  
+}
+.header{
+    font-size: 20px;
+    margin-left: 10px;
+    
+    
+
+}
+
+.text{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0px 20px;
+    margin-top:25px;
+    
+
+}
+
+@media screen  and (max-width:600px){
+    .cards-container{
+        justify-content: start;
+    }
+
+    .container{
+       width:100%;
+        
+    }
+    .ice-image{
+        height:25px;
+    }
+    .header{
+        font-size: 10px;
+    }
+
+    .text{
+    font-size: 10px;
+    font-weight: 100;
+    padding: 0px 20px;
+    margin-top:25px;
+    
+
+}
+
+}
+
+@media screen and (min-width:601px) and (max-width:768){
+    .cards-container{
+        justify-content: start;
+    }
+
+    .container{
+       width:100%;
+        
+    }
+    .ice-image{
+        height:20px;
+    }
+    .header{
+        font-size: 10px;
+    }
+
+
+    .text{
+    font-size: 13px;
+    font-weight: 100;
+    padding: 0px 20px;
+    margin-top:25px;
+    
+
+}
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+
+    .cards-container{
+        justify-content: start;
+    }
+
+    .container{
+        margin-left:80px;
+        width:400px;
+    }
+    .ice-image{
+         height:30px;
+    }
+    .header
+    {
+        font-size: 12px;
+    }
+
+    .text{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0px 20px;
+    margin-top:25px;
+    
+
+}
+
+}
+
+
+@media screen and (min-width: 993px) and (max-width:1200px){
+    .cards-container{
+        justify-content: start;
+    }
+
+    .container{
+        margin-left:120px;
+        width:420px;
+    }
+    .ice-image{
+          height:35;
+    }
+    .header{
+        font-size: 14px;
+    }
+
+}
+
+
+    </style>
+</head>
+<body>
+
+<div  class="cards-container">
+    <div class="container">
+        <div class="quick-card">
+         <img  src="3 scoops italian ice cream.jpg" alt="affortable" class="ice-image"/>
+         <h1 class="header">3 scoops italian ice cream </h1>
+    </div>
+        <p class="text"> Indulge in a decadent treat with our triple scoop Italian ice cream, a gourmet delight that brings the authentic flavors of Italy straight to your palate. </p>
+    </div>
+
+    <div class="container">
+        <div class="quick-card">
+         <img  src="Black Forest Ice Cream.jpg" alt="live" class="ice-image"/>
+         <h1 class="header">Black Forest Ice Cream </h1>
+    </div>
+        <p class="text"> Creamy and rich, our chocolate ice cream is made with the finest cocoa, offering a deep and satisfying chocolate flavor that serves as the perfect foundation for this indulgent dessert.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="quick-card">
+         <img  src="blueberry ice cream.jpg" alt="recorded" class="ice-image"/>
+         <h1 class="header">blueberry ice cream </h1>
+    </div>
+        <p class="text"> Our Blueberry Ice Cream is elegantly served in a chilled glass or classic dessert bowl, garnished with a handful of fresh blueberries and a sprig of mint for a touch of color and freshness..</p>
+    </div>
+</div>
+</body>
+</html>
